@@ -1,0 +1,94 @@
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+	<soap:Header>
+		<requestHeader>
+			<acptSys>GLBS</acptSys>
+			<dataType>UTF-8</dataType>
+			<reqDate>20170929</reqDate>
+			<reqSys>GSMN</reqSys>
+			<sysKey></sysKey>
+			<tradeCode>BKT02</tradeCode>
+		</requestHeader>
+	</soap:Header>
+	<soap:Body>
+		<ns2:applyFin xmlns:ns2="http://www.primeton.com/ToTwService">
+			<ns2:in0>
+				<applyNo>2017092900000221</applyNo>
+				<socialCreditCode>201710091111110002</socialCreditCode>
+				<customerName>糖网客户002</customerName>
+				<applicantName>柳小二</applicantName>
+				<applicantPhone>18383838383</applicantPhone>
+				<applyAmt>1000.00</applyAmt>
+				<applyDate>20171016</applyDate>
+				<finType>01</finType>
+				<finPurpose>2</finPurpose>
+				<creditContractNo>CntNo00038</creditContractNo>
+				<creditUsed>1000.00</creditUsed>
+				<signAgreementFlag xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+					xsi:nil="true" />
+				<agreementName xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+					xsi:nil="true" />
+				<bizType>1</bizType>
+				<guarantyType>1</guarantyType>
+				<guarantorName>糖网客户002</guarantorName>
+				<guarantorSocialCreditCode>201710091111110002
+				</guarantorSocialCreditCode>
+				<guarantorContacter>柳小二</guarantorContacter>
+				<guarantorTelNo>18383838383</guarantorTelNo>
+				<guarantyDetail>
+					<guarantyNo>RZCD201708040101</guarantyNo>
+					<orderAmt>7000</orderAmt>
+					<orderState>1</orderState>
+					<tradeMatchName xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+						xsi:nil="true" />
+					<tradeMatchSocialCreditCode
+						xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+					<tradeMatchContacter xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+						xsi:nil="true" />
+					<tradeMatchTelNo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+						xsi:nil="true" />
+					<tradeMatchNotifyNo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+						xsi:nil="true" />
+					<storageName xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+						xsi:nil="true" />
+					<storageSocialCreditCode>201710091111110002
+					</storageSocialCreditCode>
+					<storageContacter>郑先声-糖网业务管理员</storageContacter>
+					<storageTelNo>17212345678</storageTelNo>
+					<storageNotifyNo>17212345678</storageNotifyNo>
+					<storageTotalAmt>7000</storageTotalAmt>
+					<signDate xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+						xsi:nil="true" />
+					<currencyCode>RMB</currencyCode>
+					<deliveryDate xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+						xsi:nil="true" />
+					<intoStorageDate>20170804</intoStorageDate>
+				</guarantyDetail>
+				<goodDetail>
+					<guarantyNo>RZCD201708040101</guarantyNo>
+					<warehouseNo>GXBTHTGJ</warehouseNo>
+					<warehouseName xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+						xsi:nil="true" />
+					<stackPosition xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+						xsi:nil="true" />
+					<goodsName>白砂糖</goodsName>
+					<breedRank>一级</breedRank>
+					<productPlace>广西柳州</productPlace>
+					<brand xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+						xsi:nil="true" />
+					<specifications xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+						xsi:nil="true" />
+					<batchNo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+						xsi:nil="true" />
+					<packageNo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+						xsi:nil="true" />
+					<assessmentStandard>01</assessmentStandard>
+					<goodsType>S</goodsType>
+					<guarantyRate>60.00</guarantyRate>
+					<unitPrice>7000</unitPrice>
+					<amount>1</amount>
+					<amountUnit>吨</amountUnit>
+				</goodDetail>
+			</ns2:in0>
+		</ns2:applyFin>
+	</soap:Body>
+</soap:Envelope>
